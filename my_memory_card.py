@@ -106,7 +106,9 @@ question5 = Question('Запрещённый вид ловли рыбы', 'Па�
 question6 = Question('Какая река впадает в бассейн Северного ледовитого океана?', 'Обь', 'Иртыш', 'Волга', 'Енисей')
 question7 = Question('С помощью чего ловят рыбу на мелководии?', 'Острога','Удочка', 'Копьё', 'Спиннинг')
 question8 = Question('Какое дно для обитания предпочитает рыба судак?', 'Песчаное','Илистое','Каменное','Глинястое')
-question_list=[question1, question2, question3, question4, question5, question6, question7, question8]
+question9 = Question('Who is the boy next door?', 'Van','uncle Bogdan','Billy','Steve')
+question10 = Question('The last soviet union OBT', 'T-90','T-80','T-72б3','Gvozdika')
+question_list=[question1, question2, question3, question4, question5, question6, question7, question8, question9, question10]
 main_win.curquestion = - 1
 next_question()
 main_win.show()
